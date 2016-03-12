@@ -1,4 +1,10 @@
 package me.lordusan;
+/*
+ * This plugin was written by Jainil Sutaria
+ * Website: jsutaria.github.io
+ * Twitter: @jainilsutaria1
+ * Facebook: facebook.com/jainilsutaria1
+ */
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -9,11 +15,11 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 public class Potion extends JavaPlugin {
-	
 	PotionEffect nightvision;
 	@Override
 
 	public void onEnable() {
+		getLogger().info("Potion has been enabled");
 		
 	}
 	@Override
