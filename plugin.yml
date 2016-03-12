@@ -1,0 +1,38 @@
+name: Potion
+main: me.lordusan.Potion
+version: 2.1
+commands:
+    potions:
+        description: Lists the potions
+        usage: /<command>
+    nv:
+        description: Gives Nightvision to the player
+        usage: /<command>
+    fr:
+        description: Gives fire resistance to the player
+        usage: /<command>
+    jb:
+        description: Gives jump boost to the player
+        usage: /<command>
+    heal:
+        description: Heals the player
+        usage: /<command>
+    fast:
+        description: Gives speed boost to the player
+        usage: /<command>
+permissions:
+    potion.nv:
+        description: Nightvision Perms
+        default: op
+    potion.fr:
+        description: Fire Resistance Perms
+        default: op
+    potion.jb:
+        description: Jump Perms
+        default: op
+    potion.heal:
+        description: Heal Perms
+        default: op
+    potion.speed:
+        description: Speed Perms
+        default: op
